@@ -1,0 +1,58 @@
+# --------------------
+# 1. Byte-compiled / Optimized files
+# --------------------
+# Python's intermediate compilation files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --------------------
+# 2. Environments
+# --------------------
+# Virtual environments (common names)
+.venv
+venv
+env
+
+# Environment variable files (often contain sensitive credentials)
+.env
+.flaskenv
+
+# --------------------
+# 3. Development / Build / Data
+# --------------------
+# Machine Learning & Data Science artifacts
+# Saved models, unless explicitly intended for versioning (e.g., small, final model)
+*.model
+*.pkl
+*.pickle
+*.h5
+/model_output/
+/data/transformed/
+/data/processed/
+
+# Database files
+# Your project contains database files which should typically be ignored
+# UNLESS they are intended to be part of the repository (e.g., small test DB)
+*.db
+*.sqlite3
+
+# --------------------
+# 4. Jupyter Notebook Files
+# --------------------
+# Notebook checkpoint directories
+.ipynb_checkpoints
+
+# --------------------
+# 5. IDE and OS Files
+# --------------------
+# Visual Studio Code (VSCode) files
+# Ignore workspace-specific settings, but consider keeping launch/tasks if shared
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows thumbnail files
+Thumbs.db
