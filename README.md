@@ -35,6 +35,7 @@ Na disciplina de Iniciação à Pesquisa I e Laboratório Avançado I, a turma 2
 - [Scikit-learn](https://scikit-learn.org)
 - [Optuna](https://optuna.org/)
 - [Scipy](https://scipy.org/pt/)
+- [Seaborn](https://seaborn.pydata.org/)
 
 #### 🐍 Versão do Python 🐍
   Python 3.12.7
@@ -54,7 +55,7 @@ Na disciplina de Iniciação à Pesquisa I e Laboratório Avançado I, a turma 2
    source venv/bin/activate
   4. Instale as bibliotecas necessárias acima listadas seguindo a sintaxe:
      ```bash
-     pip install <NOME-DA-BIBLIOTECA>
+     pip install -r requirements.txt
   5. Execute o notebook _modelos_finais_.
      
 # 💾 Resultados esperados 💾
@@ -110,7 +111,7 @@ SCIPY DEVELOPERS. SciPy documentation. Disponível em: https://docs.scipy.org/do
 . Acesso em: 1 nov. 2025.
 
 WASKOM, Michael et al. Seaborn documentation. Disponível em: https://seaborn.pydata.org/
-. Acesso em: 3 nov. 2025.
+. Acesso em: 1 nov. 2025.
 
 
 
