@@ -32,12 +32,6 @@ env
 /data/transformed/
 /data/processed/
 
-# Database files
-# Your project contains database files which should typically be ignored
-# UNLESS they are intended to be part of the repository (e.g., small test DB)
-*.db
-*.sqlite3
-
 # --------------------
 # 4. Jupyter Notebook Files
 # --------------------
