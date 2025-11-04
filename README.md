@@ -62,14 +62,14 @@ Na disciplina de Iniciação à Pesquisa I e Laboratório Avançado I, a turma 2
 
 Ao executar os passos anteriormente detalhados, um usuário deve receber como output esperado a matriz de confusão de cada um dos modelos, assim como o seguinte retorno de métricas de interesse: 
 
-| Modelo               |   F1-Macro |
-|----------------------|------------|
-| Baseline             |     0.8681 |              
-| K-NN                 |     0.9331 |            
-| Árvore de Decisão    |     0.9414 |          
-| Floresta Aleatória   |     0.9555 |        
-| Regressão Logística  |     0.8544 |        
-| SVC                  |     0.9166 |  
+| Modelo               |  Estimativa F1-Macro (``y_treino``) | F1-Macro (``y_teste``) | Recall | Acurácia |
+|----------------------|-------------------------------------|------------------------|--------|----------|
+| Baseline             |                              0.8681 |                 0.8681 | 1.0000 |   0.7670 |
+| K-NN                 |                              0.8402 |                 0.9331 | 0.9663 |   0.8938 |
+| Árvore de Decisão    |                              0.8961 |                 0.9414 | 0.9408 |   0.9103 |
+| Floresta Aleatória   |                              0.9112 |                 0.9555 | 0.9690 |   0.9309 |
+| Regressão Logística  |                              0.7383 |                 0.8544 | 0.7889 |   0.7938 |
+| SVC                  |                              0.8508 |                 0.9166 | 0.8938 |   0.8752 |
 
 # 🌐Desenvolvedores🌐
 
