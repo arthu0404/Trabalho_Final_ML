@@ -1,4 +1,4 @@
-# Trabalho Final - Machine Learning - Equipe Windsurf  🏄 💨
+# Trabalho Final - Machine Learning - Equipe Windsurfing  🏄 💨
 
 No presente trabalho, nos propusemos a analisar dados a respeito da toxicidade de nanopartículas utilizando 6 modelos de aprendizado de máquina:
 
